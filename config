@@ -1,0 +1,58 @@
+Host lv3-32187
+    HostName lv3-32187.gel.ulaval.ca
+    User argar18
+    Port 22
+
+Host lv3-32188
+    HostName lv3-32188.gel.ulaval.ca
+    User argar18
+    Port 22
+
+Host lv3-32189
+    HostName lv3-32189.gel.ulaval.ca
+    User argar18
+    Port 22
+
+Host lv3-32190
+    HostName lv3-32190.gel.ulaval.ca
+    User argar18
+    Port 22
+
+Host lv2-32191
+    HostName lv2-32191.gel.ulaval.ca
+    User argar18
+    Port 22
+
+Host lv2-32192
+    HostName lv2-32192.gel.ulaval.ca
+    User argar18
+    Port 22
+
+Host lv2-32193
+    HostName lv2-32193.gel.ulaval.ca
+    User argar18
+    Port 22
+
+Host nutcracker
+    HostName tchaikovsky.gel.ulaval.ca
+    User argar18
+    Port 22
+
+Host sergei
+    HostName rachmaninoff.gel.ulaval.ca
+    User argar18
+    Port 22
+
+Host pika
+    Hostname pika.gel.ulaval.ca
+    User argar18
+    Port 22
+    LocalForward 32187 lv3-32187.gel.ulaval.ca:22
+    LocalForward 32188 lv3-32188.gel.ulaval.ca:22
+    LocalForward 32189 lv3-32189.gel.ulaval.ca:22
+    LocalForward 32190 lv3-32190.gel.ulaval.ca:22
+    LocalForward 32191 lv2-32191.gel.ulaval.ca:22
+    LocalForward 32192 lv2-32192.gel.ulaval.ca:22
+    DynamicForward 1080
+    ForwardAgent yes
+    AddKeysToAgent yes
