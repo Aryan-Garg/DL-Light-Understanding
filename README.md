@@ -4,3 +4,5 @@
 > Ian Maquignaz   
 > Aryan Garg
 ---
+
+![NeRF-mind-map](mindmap_NeRF.png)
